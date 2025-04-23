@@ -4,7 +4,7 @@ import pandas as pd
 import json
 
 #url
-uri="mongodb+srv://<UserName>:<password>@cluster0.emvilqt.mongodb.net/?retryWrites=true&w=majority"
+uri="mongodb+srv://rehan:12345@cluster0.emvilqt.mongodb.net/?retryWrites=true&w=majority"
 
 #create a new client and connect to server
 client=MongoClient(uri)
